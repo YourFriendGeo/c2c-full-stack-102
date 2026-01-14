@@ -2,7 +2,7 @@
 
 ## Goal
 
-Set up the starter **Spotify Music Search** React app in your Codespace/IDE. By the end of Lesson 2, your app should run locally with a Bootstrap-styled search input and have React state set up for:
+Set up the starter **Spotify Music Search** React app in your Codespace/IDE. By the end of Lesson 2, your app should run locally and have React state set up for:
 
 - the user’s search input (`searchInput`)
 - the Spotify API token (`accessToken`)
@@ -18,32 +18,15 @@ These steps assume you have already run `npx create-react-app music-app`.
    cd /workspaces/c2c-full-stack-102/lesson-02/music-app
    ```
 
-3. Install Bootstrap + React Bootstrap:
-
-```bash
-npm install bootstrap react-bootstrap
-```
-
-4. Start the dev server:
+3. Start the dev server:
 
    ```bash
    npm start
    ```
 
-5. In Codespaces, open the **Ports** tab and open port `3000` in the browser.
+4. In Codespaces, open the **Ports** tab and open port `3000` in the browser.
 
-## 2) Add Bootstrap
-
-Import Bootstrap CSS.
-
-- Open `music-app/src/index.js`
-- Add this line near the top (above your app render):
-
-  ```js
-  import "bootstrap/dist/css/bootstrap.min.css";
-  ```
-
-## 3) useState Setup Guide
+## 2) useState Setup Guide
 
 Use this checklist to add the `searchInput` and `accessToken` state variables inside your `App` component.
 
@@ -107,7 +90,7 @@ const [accessToken, setAccessToken] = useState("");
 - You should have: `searchInput` starting as `""` (empty string)
 - You should have: `accessToken` starting as `""` (empty string)
 
-## 4) Spotify credentials (outside the IDE, then back in)
+## 3) Spotify credentials (outside the IDE, then back in)
 
 You’ll need to create a Spotify Developer app to get:
 
@@ -119,8 +102,6 @@ Then come back to `music-app/src/App.js` and paste those values into `CLIENT_ID`
 ## Lesson 2 “Done” checklist
 
 - `lesson-02/music-app` exists and runs with `npm start`
-- Bootstrap styles are loaded
-- The page shows a search input + button
 - `App` contains:
   - `const [searchInput, setSearchInput] = useState("");`
   - `const [accessToken, setAccessToken] = useState("");`
