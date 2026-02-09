@@ -1,6 +1,6 @@
 {
-  "short_name": "Pokemon",
-  "name": "Lesson 5 - Pokemon App",
+  "short_name": "StudentDB",
+  "name": "StudentDB",
   "icons": [],
   "start_url": ".",
   "display": "standalone",

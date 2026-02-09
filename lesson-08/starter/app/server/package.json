@@ -1,7 +1,7 @@
 {
-  "name": "lesson-07-server",
+  "name": "studentdb-server",
   "version": "1.0.0",
-  "description": "Lesson 07 Express server starter",
+  "description": "StudentDB Express server starter",
   "main": "index.js",
   "private": true,
   "scripts": {
