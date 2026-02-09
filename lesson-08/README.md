@@ -95,9 +95,11 @@ Open the client at `http://localhost:3000`.
 
 If you’re running this in a GitHub Codespace, **do not hard-code** `http://localhost:3001` in your React app.
 
+If you copied the provided starter (Option B), this is already set up for you (it uses a React dev-server proxy and relative API URLs).
+
 In Codespaces, your browser is not “inside” the container, so `localhost:3001` points to your own computer—not the Codespace—so requests fail and often show up as a CORS error.
 
-Fix (recommended): use the React dev server proxy + relative URLs.
+If you copied your prior lesson app (Option A) and you see this issue, fix it by using the React dev server proxy + relative URLs.
 
 1. In the client `package.json`, add:
 
