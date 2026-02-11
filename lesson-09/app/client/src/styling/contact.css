@@ -1,0 +1,43 @@
+#contact-page {
+  background: url("https://images.unsplash.com/photo-1434715961933-4cbf3d79230f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80");
+  background-repeat: no-repeat;
+  height: 140vh;
+  width: 100vw;
+}
+
+#contact {
+  position: absolute;
+  top: 80px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.name,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: rgb(0, 92, 122);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #000b70;
+}
