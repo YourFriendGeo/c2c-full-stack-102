@@ -1,0 +1,29 @@
+.img {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+#card-container {
+  display: flex;
+  max-height: 50vh;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  border: solid black;
+  background-color: white;
+}
+
+.featured-card {
+  min-width: 300px;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+#gallery-head {
+  background: black;
+  margin-top: -5px;
+}
